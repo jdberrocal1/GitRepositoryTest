@@ -1,4 +1,9 @@
 
+function login(argument) {
+	console.log(argument);
+}
+
+
 function Login(){
     console.log("Está haciendo hambre")
 }
@@ -17,3 +22,4 @@ function validacionLogin() {
         alert ("Mae mamo, gg");
     }
   }
+
