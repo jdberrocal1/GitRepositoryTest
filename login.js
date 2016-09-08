@@ -1,4 +1,14 @@
-var saludo = "Hola"
-var saludo1 = function(car){
-	consolo.log(car) 
-}
+
+function validacionLogin() {
+    var un = document.loginform.usr.value;
+    var pw = document.loginform.pword.value;
+    var nombreUsuario = "nombreUsuario"; 
+    var contrasena = "contrasena";
+    if ((un == nombreUsuario) && (pw == contrasena)) {
+        window.location = "main.html";
+        return false;
+    }
+    else {
+        alert ("Mae mamo, gg");
+    }
+  }
